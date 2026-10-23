@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="LiangYou-IPTV-demo">
+  <channel id="demo.news.local"><display-name>良友新闻（演示）</display-name></channel>
+  <channel id="demo.movies.local"><display-name>良友电影（演示）</display-name></channel>
+  <programme channel="demo.news.local" start="20261023120000 +0800" stop="20261023123000 +0800"><title lang="zh">演示节目（非真实播出）</title></programme>
+</tv>
