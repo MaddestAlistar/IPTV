@@ -1,0 +1,205 @@
+{
+  "schema": "liangyou.resource-lab/1.0",
+  "id": "IPTV",
+  "title": "良友 IPTV 台标与 EPG",
+  "updated": "2026-10-23",
+  "resourceType": "channel-aliases-epg-map",
+  "importType": "reference-mapping-not-playable-playlist",
+  "repository": "https://github.com/MaddestAlistar/IPTV",
+  "isDemoData": true,
+  "channelCount": 18,
+  "channels": [
+    {
+      "id": "cctv1",
+      "name": "CCTV-1 综合",
+      "aliases": [
+        "CCTV1",
+        "CCTV-1",
+        "央视一套",
+        "中央一套",
+        "CCTV1综合"
+      ]
+    },
+    {
+      "id": "cctv2",
+      "name": "CCTV-2 财经",
+      "aliases": [
+        "CCTV2",
+        "CCTV-2",
+        "央视二套",
+        "央视财经"
+      ]
+    },
+    {
+      "id": "cctv3",
+      "name": "CCTV-3 综艺",
+      "aliases": [
+        "CCTV3",
+        "CCTV-3",
+        "央视三套"
+      ]
+    },
+    {
+      "id": "cctv4",
+      "name": "CCTV-4 中文国际",
+      "aliases": [
+        "CCTV4",
+        "CCTV-4",
+        "央视四套"
+      ]
+    },
+    {
+      "id": "cctv5",
+      "name": "CCTV-5 体育",
+      "aliases": [
+        "CCTV5",
+        "CCTV-5",
+        "央视五套",
+        "央视体育"
+      ]
+    },
+    {
+      "id": "cctv5plus",
+      "name": "CCTV-5+ 体育赛事",
+      "aliases": [
+        "CCTV5+",
+        "CCTV-5+",
+        "CCTV5PLUS",
+        "CCTV5PLUS体育赛事",
+        "央视体育赛事"
+      ]
+    },
+    {
+      "id": "cctv6",
+      "name": "CCTV-6 电影",
+      "aliases": [
+        "CCTV6",
+        "CCTV-6",
+        "央视六套",
+        "央视电影频道"
+      ]
+    },
+    {
+      "id": "cctv7",
+      "name": "CCTV-7 国防军事",
+      "aliases": [
+        "CCTV7",
+        "CCTV-7",
+        "央视七套"
+      ]
+    },
+    {
+      "id": "cctv8",
+      "name": "CCTV-8 电视剧",
+      "aliases": [
+        "CCTV8",
+        "CCTV-8",
+        "央视八套"
+      ]
+    },
+    {
+      "id": "cctv9",
+      "name": "CCTV-9 纪录",
+      "aliases": [
+        "CCTV9",
+        "CCTV-9",
+        "央视九套"
+      ]
+    },
+    {
+      "id": "cctv10",
+      "name": "CCTV-10 科教",
+      "aliases": [
+        "CCTV10",
+        "CCTV-10",
+        "央视科教"
+      ]
+    },
+    {
+      "id": "cctv11",
+      "name": "CCTV-11 戏曲",
+      "aliases": [
+        "CCTV11",
+        "CCTV-11"
+      ]
+    },
+    {
+      "id": "cctv12",
+      "name": "CCTV-12 社会与法",
+      "aliases": [
+        "CCTV12",
+        "CCTV-12"
+      ]
+    },
+    {
+      "id": "cctv13",
+      "name": "CCTV-13 新闻",
+      "aliases": [
+        "CCTV13",
+        "CCTV-13",
+        "央视新闻"
+      ]
+    },
+    {
+      "id": "cctv14",
+      "name": "CCTV-14 少儿",
+      "aliases": [
+        "CCTV14",
+        "CCTV-14",
+        "央视少儿"
+      ]
+    },
+    {
+      "id": "cctv15",
+      "name": "CCTV-15 音乐",
+      "aliases": [
+        "CCTV15",
+        "CCTV-15",
+        "央视音乐"
+      ]
+    },
+    {
+      "id": "cctv16",
+      "name": "CCTV-16 奥林匹克",
+      "aliases": [
+        "CCTV16",
+        "CCTV-16",
+        "央视奥林匹克"
+      ]
+    },
+    {
+      "id": "cctv17",
+      "name": "CCTV-17 农业农村",
+      "aliases": [
+        "CCTV17",
+        "CCTV-17",
+        "央视农业农村"
+      ]
+    }
+  ],
+  "epgMappings": [
+    {
+      "localId": "demo-news",
+      "xmltvId": "demo.news.local",
+      "note": "仅演示，请勿用于真实电视台"
+    },
+    {
+      "localId": "demo-movies",
+      "xmltvId": "demo.movies.local",
+      "note": "仅演示，请勿用于真实电视台"
+    }
+  ],
+  "resources": {
+    "m3uExample": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/examples/demo.m3u",
+    "xmltvExample": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/examples/demo.xml",
+    "newsLogo": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/logos/demo-news.svg",
+    "moviesLogo": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/logos/demo-movies.svg",
+    "aliasesCSV": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/data/channel-aliases.csv",
+    "epgCSV": "https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/data/epg-map.csv"
+  },
+  "notes": [
+    "不包含真实直播播放源或持续更新的节目指南",
+    "节目 EPG ID 为演示值，不等于官方 ID",
+    "频道名称映射需要结合实际服务商人工核对"
+  ]
+}

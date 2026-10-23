@@ -4,6 +4,12 @@
 
 围绕 **频道别名标准化 → M3U 标准属性 → XMLTV 节目指南 ID 对照**，优先提供可维护的基础数据与本地验证脚本，不发布未经授权的直播源与节目指南。
 
+## JSON 资源入口
+
+**[获取统一 JSON 资源目录](https://raw.githubusercontent.com/MaddestAlistar/IPTV/main/index.json)**
+
+`index.json` 包含当前所有 18 个频道的标准名称/别名、XMLTV 演示对应关系及 M3U/XMLTV/台标的文件 URL。它是**频道信息索引**，不是能直接播放的 IPTV 节目源，也不是实时 EPG；真实节目单需合法来源接入。
+
 ## 首版完成内容
 
 - [18 个央视基础频道名称与常见别名](data/channel-aliases.csv)：覆盖 CCTV-1—17、CCTV-5+；这只是**名称与别名**，不意味着已接入频道播放源。
